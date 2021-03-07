@@ -1,6 +1,6 @@
 <!--pages/home/home.wxml-->
 <view class="container">
-  <text user-select class="title">hello,小程序 </text>
+  <text  class="title">hello,小程序 </text>
   <text>{{name}}</text>
 </view>
 
