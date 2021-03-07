@@ -1,0 +1,23 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <text user-select class="title">hello,小程序 </text>
+  <text>{{name}}</text>
+</view>
+
+<view class="progress-box">
+  <progress percent="20" show-info stroke-width="3"/>
+</view>
+
+
+<view wx:for="{{student}}">{{item.name}}---{{item.age}}</view>
+
+<view>当前计算:{{counter}}</view>
+<button size="mini" bindtap="monitor">+</button>
+<button size="mini" bindtap="subtranction">-</button>
+
+<view>
+  <button size="mini" type="primary" class="middle-btn" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+        获取用户信息按钮
+    </button>
+</view>
+
