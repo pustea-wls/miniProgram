@@ -2,4 +2,18 @@
 <view>
   <text>{{userInfo.userName}}</text>
 </view>
-<image mode="aspectFit" style="width: 200px; height: 200px; background-color: #eeeeee;" src="{{userInfo.Avatar}}" alt=""></image>
+<view><image mode="aspectFit" style="width: 200px; height: 200px; background-color: #eeeeee;" src="{{userInfo.Avatar}}" alt=""></image></view>
+
+
+<!-- button的size属性 -->
+<button size="mini">按钮</button>
+
+<!-- button的type属性 -->
+<button   size="mini" type="primary">按钮</button>
+<button   size="mini" type="default">按钮</button>
+<button   size="mini" type="warn">按钮</button>
+
+<!-- button的loading属性 -->
+<button size="mini" loading="true">按钮</button>
+
+
