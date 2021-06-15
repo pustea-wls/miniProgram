@@ -1,6 +1,1 @@
-<!--pages/demo.wxml-->
-<text>input</text>
-<input   password/>
 
-<!-- 身份证键盘 -->
-<input  placeholder="请输入身份证" type="idcard"  confirm-type="send"/>
