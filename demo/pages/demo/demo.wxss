@@ -1,5 +1,26 @@
 /* pages/demo.wxss */
-input{
-  border: 1px solid red;
-  margin: 10px 20px;
+.container1{
+  background-color: purple;
+  white-space: nowrap;
+}
+.item1{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background:red;
+  display: inline-block;
+}
+.container2
+{
+  background:orange;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.item2
+{
+background: orchid;
+height: 50px;
+width: 50px;
+margin: 10px;
 }
