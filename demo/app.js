@@ -15,6 +15,7 @@ App({
     wx.getUserInfo({
       success:function(res)
       {
+        console.info(res)
        getApp().globalData.userName=res.userInfo.nickName
        getApp().globalData.Avatar=res.userInfo.avatarUrl
        

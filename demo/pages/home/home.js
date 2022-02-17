@@ -4,6 +4,10 @@ Page({
     console.log('用户名称', e.detail.userInfo.nickName)
     console.log('用户头像', e.detail.userInfo.avatarUrl)
     console.log('用户性别', e.detail.userInfo.gender)
+
+    this.setData({
+      name: e.detail.userInfo.nickName
+    })
 },
 
   /**

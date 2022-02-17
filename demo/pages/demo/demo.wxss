@@ -1,5 +1,13 @@
 /* pages/demo.wxss */
-input{
-  border: 1px solid red;
-  margin: 10px 20px;
+.box1{
+  width: 100px;
+  height: 100px;
+  background:red;
+}
+
+.box2{
+  margin-top: 20px;
+  width: 200rpx;
+  height: 200rpx;
+  background:pink;
 }
